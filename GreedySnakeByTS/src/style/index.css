@@ -1,21 +1,17 @@
 /* 颜色变量 */
-@bg-color: #B6D3A7;
-
 /* 设置默认样式 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-body{
-  font:bold 20px "Courier"
+body {
+  font: bold 20px "Courier";
 }
-
 #main {
   width: 450px;
   height: 580px;
-  background-color: @bg-color;
+  background-color: #B6D3A7;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -30,17 +26,15 @@ body{
   border: 3px solid black;
   position: relative;
 }
-#snake{
-  div{
-    width: 10px;
-    height: 10px;
-    background: black;
-    border: 1px solid @bg-color;
-    position: absolute;
-  }
+#snake div {
+  width: 10px;
+  height: 10px;
+  background: black;
+  border: 1px solid #B6D3A7;
+  position: absolute;
 }
-#foods{
-  position:absolute;
+#foods {
+  position: absolute;
   width: 10px;
   height: 10px;
   left: 40px;
@@ -48,16 +42,15 @@ body{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  div{
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-    background-color: black;
-  }
 }
-#game-panel{
-  width:380px;
+#foods div {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: black;
+}
+#game-panel {
+  width: 380px;
   display: flex;
   justify-content: space-between;
 }
-

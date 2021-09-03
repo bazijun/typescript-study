@@ -1,4 +1,5 @@
 import './style/index.less'
-import GameControl from './components/GameControl'
+import GameControl from './module/GameControl'
 
-const gc = new GameControl()
+new GameControl()
+
